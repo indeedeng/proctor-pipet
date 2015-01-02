@@ -1,0 +1,23 @@
+{
+    "context": {
+        "country": {
+            "source": "QUERY",
+            "sourceKey": "geo.country",
+            "type": "String",
+            "defaultValue": "US"
+        },
+        "userAgent": {
+            "source": "HEADER",
+            "sourceKey": "User-Agent",
+            "type": "UserAgent"
+        }
+    },
+    "identifiers": {
+        "USER": {
+            "source": "QUERY"
+        },
+        "PAGE": {
+        	"source": "QUERY"
+    	}
+    }
+}
