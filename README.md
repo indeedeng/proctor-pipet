@@ -1,5 +1,11 @@
 # Proctor Pipet
 
+---
+
+**This repository is now archived, the contents have been moved to https://github.com/indeedeng/proctor**
+
+---
+
 Proctor Pipet is a Java web application that provides a simple REST API to [Proctor](https://github.com/indeedeng/proctor).
 
 Through this API, other programming languages only need an HTTP client to use Proctor. This makes it easy to get test groups from a non-JVM web backend language like PHP or Python.
